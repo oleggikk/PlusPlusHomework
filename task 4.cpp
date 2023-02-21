@@ -29,9 +29,8 @@ void task4() {
     std::cout << "Enter element: ";
     for (int i = 0; i < lenOfList; i++) {
         std::cin >> input;
-        if (input != 0) {
-            lst.push_back(input);
+        lst.push_back(input);
         }
-    }
     print_even(lst);
-}
+    }
+
